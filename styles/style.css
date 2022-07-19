@@ -141,3 +141,71 @@ a:hover span::after {
     height: 613px;
 
 }
+
+/* Footer styles */
+footer {
+    background-color: #161616;
+    ;
+}
+
+.upper-footer {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.upper-footer h2 {
+    padding-top: 100px;
+}
+
+hr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    width: 80%;
+    margin: auto;
+}
+
+.lower-footer {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.others-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.others-info li {
+    list-style-type: none;
+
+
+}
+
+.others-info li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #B9B9B9;
+    margin-left: 40px;
+}
+
+.social-accounts {
+    display: flex;
+    justify-content: center;
+}
+
+.social-accounts a i {
+
+    color: white;
+    margin: 20px 15px;
+    color: white;
+    font-size: 20px;
+    background-color: #2e2a59;
+    padding: 10px;
+    border-radius: 50px;
+
+}
