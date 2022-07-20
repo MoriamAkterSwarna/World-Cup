@@ -322,3 +322,72 @@ hr {
     border-radius: 50px;
 
 }
+
+
+/* Responsive  */
+/* Mobile Devices */
+@media only screen and (max-width:375px) {
+    .header-section {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .header-left {
+        width: 100%;
+    }
+
+    .header-image {
+        width: 100%;
+    }
+
+
+}
+
+/* Upcoming match styles */
+.schedules {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 70px;
+
+}
+
+.schedule {
+    width: 312px;
+    box-sizing: border-box;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+
+}
+
+.schedule-details {
+    margin: 53px 30px;
+    text-align: center;
+}
+
+.maps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin-bottom: 23px;
+
+}
+
+.schedule-details .vs p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #161616;
+
+}
+
+
+.schedule-details h2 {
+    font-size: 20px;
+    color: #161616;
+}
+
+.schedule-details p {
+    color: #4D4D4D;
+    font-size: 16px;
+}
